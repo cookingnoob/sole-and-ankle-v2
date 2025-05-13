@@ -1,24 +1,15 @@
-import React from 'react';
-import styled from 'styled-components';
+import MainGrid from "../MainGrid";
+import Navbar from "../NavBar";
+import Sidebar from "../Sidebar";
+import SuperHeader from "../SuperHeader";
 
-import Header from '../Header';
-import ShoeIndex from '../ShoeIndex';
-
-const App = () => {
-  const [sortId, setSortId] = React.useState('newest');
-
+export default function App() {
   return (
-    <>
-      <Header />
-      <Main>
-        <ShoeIndex sortId={sortId} setSortId={setSortId} />
-      </Main>
-    </>
-  );
-};
-
-const Main = styled.main`
-  padding: 64px 32px;
-`;
-
-export default App;
+    <div>
+        <SuperHeader/>
+        <Navbar/>
+        <Sidebar/>
+        <MainGrid/>
+    </div>
+  )
+}

@@ -1,12 +1,13 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-
 import App from './components/App';
-import GlobalStyles from './components/GlobalStyles';
+
+// import App from './og-components/App';
+// import GlobalStyles from './og-components/GlobalStyles';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-    <GlobalStyles />
+    <App/>
+
   </StrictMode>
 );
