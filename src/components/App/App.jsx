@@ -5,11 +5,13 @@ import SuperHeader from "../SuperHeader";
 
 export default function App() {
   return (
-    <div>
+    <div className="flex flex-col">
         <SuperHeader/>
         <Navbar/>
+        <div className="flex flex-1">
         <Sidebar/>
         <MainGrid/>
+        </div>
     </div>
   )
 }

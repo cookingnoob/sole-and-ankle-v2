@@ -43,7 +43,7 @@ const ShoeIndex = ({ sortId, setSortId }) => {
 };
 
 const Wrapper = styled.div``;
-
+ 
 const LeftColumn = styled.div``;
 
 const MainColumn = styled.div``;
