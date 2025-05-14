@@ -6,21 +6,19 @@ export default function MainGrid() {
     <main>
       <div>
         <h1>Running</h1>
-         <label>
+        <label>
           <span>Sort</span>
           <select name="" id="">
             <option value="">Newest Releases</option>
           </select>
-         </label>
+        </label>
       </div>
 
-      <div>
-      {
-        SHOES.map(shoe => (
-          <ShoeCard key={shoe.slug} shoe={shoe}/>
-        ))
-      }
+      <div className="flex flex-wrap gap-8 justify-center">
+        {SHOES.map((shoe) => (
+          <ShoeCard key={shoe.slug} shoe={shoe} />
+        ))}
       </div>
     </main>
-  )
+  );
 }

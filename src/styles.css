@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary-red: hsl(340deg, 65%, 47%);
+  --color-secondary-blue: hsl(240deg, 60%, 63%);
+}
+
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
