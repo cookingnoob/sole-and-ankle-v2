@@ -10,7 +10,7 @@ export default function ShoeCard({ shoe }) {
       <SalesTag sale={shoe.salePrice} />
       <div className="flex justify-between">
         <h1 className="font-bold size-4]">{shoe.name}</h1>
-        <ShoePrice price={shoe.price} />
+        <ShoePrice price={shoe.price} sale={shoe.salePrice}/>
       </div>
 
       <div className="flex justify-between">
@@ -43,8 +43,9 @@ function SalesPrice({ price }) {
   ) : null;
 }
 
-function ShoePrice(price) {
-  return <p>{formatPrice(price.price)}</p>;
+function ShoePrice({price, sale}) {
+  console.log(sale)
+  return <p className={`${sale ? 'line-through' : ''}`}>{formatPrice(price)}</p>;
 }
 
 function ColorsP({ colors }) {
