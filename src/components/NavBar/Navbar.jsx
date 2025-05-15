@@ -1,25 +1,17 @@
+import Link from "../LinkList";
+import Logo from "../Logo";
+
 export default function Navbar() {
   return (
-    <nav >
-      <ol className="flex gap-5">
-        <li>
-          <a>SALE</a>
-        </li>
-        <li>
-          <a>NEW RELEASES</a>
-        </li>
-        <li>
-          <a>MEN</a>
-        </li>
-        <li>
-          <a>WOMEN</a>
-        </li>
-        <li>
-          <a>KIDS</a>
-        </li>
-        <li>
-          <a>COLLECTIONS</a>
-        </li>
+    <nav className="mb-1" >
+      <Logo/>
+      <ol className="flex justify-center gap-5">
+        <Link name={'SALE'} className={'text-secondary-blue'}/>
+        <Link name={'NEW RELEASES'} />
+        <Link name={'MEN'} />
+        <Link name={'WOMEN'} />
+        <Link name={'KIDS'} />
+        <Link name={'COLLECTIONS'} />
       </ol>
     </nav>
   )
