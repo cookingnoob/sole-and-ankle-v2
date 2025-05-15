@@ -1,4 +1,3 @@
-import React from "react";
 import { formatPrice, isNewShoe } from "../../utils";
 
 export default function ShoeCard({ shoe }) {
