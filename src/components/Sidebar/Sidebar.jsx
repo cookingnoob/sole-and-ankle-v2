@@ -3,8 +3,11 @@ import SideBarList from "../SideBarList/SideBarList";
 
 export default function Sidebar() {
   return (
-      <aside className="w-60 pl-8">
-        <SideBarList/>
-    </aside>
-  )
+    <div className="flex flex-col items-center pl-8">
+      <Breadcrumbs/>
+      <aside className="">
+        <SideBarList />
+      </aside>
+    </div>
+  );
 }

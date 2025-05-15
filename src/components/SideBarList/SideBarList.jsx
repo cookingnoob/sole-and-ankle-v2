@@ -3,7 +3,7 @@ import Link from "../LinkList";
 
 export default function SideBarList() {
   return (
-        <ol className="w-60">
+        <ol className=" mt-9 leading-[2]" >
             <Link name='Lifestyle'/>
             <Link name='Jordan'/>
             <Link className={'text-primary-red'} name='Running'/>
