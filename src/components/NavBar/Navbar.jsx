@@ -3,8 +3,8 @@ import Logo from "../Logo";
 
 export default function Navbar() {
   return (
-    <nav className="mb-1" >
-      <Logo/>
+    <nav className="border-b-1 border-b-gray-three " >
+      <Logo className={'font-extrabold text-2xl'}/>
       <ol className="flex justify-center gap-5">
         <Link name={'SALE'} className={'text-secondary-blue'}/>
         <Link name={'NEW RELEASES'} />

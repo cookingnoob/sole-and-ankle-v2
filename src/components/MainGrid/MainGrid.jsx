@@ -5,9 +5,9 @@ import Sidebar from "../Sidebar";
 export default function MainGrid() {
   return (
     <main className="mt-16">
-      <div className=" flex justify-between bg-blue-500">
+      <div className=" flex justify-between ">
         <Breadcrumbs/>
-        <h1 className="text-2xl  bg-red-300">Running</h1>
+        <h1 className="text-2xl  ">Running</h1>
         <label>
           <span>Sort</span>
           <select name="" id="">

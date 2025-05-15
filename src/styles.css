@@ -4,11 +4,11 @@
 @theme {
   --color-primary-red: hsl(340deg, 65%, 47%);
   --color-secondary-blue: hsl(240deg, 60%, 63%);
-  --color-100-gray: hsl(185deg, 5%, 95%);
-  --color-300-gray: "hsl(190deg, 5%, 80%)";
-  --color-500-gray: "hsl(196deg, 4%, 60%)";
-  --color-700-gray: "hsl(220deg, 5%, 40%)";
-  --color--900-gray: "hsl(220deg, 3%, 20%)";
+  --color-gray-one: hsl(185deg, 5%, 95%);
+  --color-gray-three: hsl(190deg, 5%, 80%);
+  --color-gray-five: hsl(196deg, 4%, 60%);
+  --color-gray-seven: hsl(220deg, 5%, 40%);
+  --color--gray-nine: hsl(220deg, 3%, 20%);
 
   --font-raleway: "Raleway", sans-serif;
 }
