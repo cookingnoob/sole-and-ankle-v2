@@ -1,5 +1,5 @@
-export default function Link({name, href='/'}){
+export default function Link({name, href='/', className}){
     return <li>
-                <a href={href}>{name}</a>
+                <a className={className} href={href}>{name}</a>
             </li>
 }

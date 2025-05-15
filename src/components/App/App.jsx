@@ -9,7 +9,6 @@ export default function App() {
         <SuperHeader/>
         <Navbar/>
         <div className="flex flex-1">
-        <Sidebar/>
         <MainGrid/>
         </div>
     </div>

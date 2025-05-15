@@ -3,7 +3,7 @@ import Link from "../LinkList";
 
 export default function SideBarList() {
   return (
-        <ol>
+        <ol className="w-60">
             <Link name='Lifestyle'/>
             <Link name='Jordan'/>
             <Link name='Running'/>
