@@ -6,7 +6,7 @@ export default function SideBarList() {
         <ol className="w-60">
             <Link name='Lifestyle'/>
             <Link name='Jordan'/>
-            <Link name='Running'/>
+            <Link className={'text-primary-red'} name='Running'/>
             <Link name='Basketball'/>
             <Link name='Training & Gym'/>
             <Link name='Football'/>
