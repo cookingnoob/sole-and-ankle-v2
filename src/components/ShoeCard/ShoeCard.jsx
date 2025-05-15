@@ -44,7 +44,7 @@ function SalesPrice({ price }) {
 }
 
 function ShoePrice({price, sale}) {
-  console.log(sale)
+
   return <p className={`${sale ? 'line-through' : ''}`}>{formatPrice(price)}</p>;
 }
 

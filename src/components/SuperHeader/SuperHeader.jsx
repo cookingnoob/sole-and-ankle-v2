@@ -7,7 +7,7 @@ export default function SuperHeader() {
       <span className="pl-8 py-3 text-sm">Free shipping on domestic orders over $75!</span>
       <div className="flex mr-3 py-2 gap-6 text-gray-three">
          <Searchbar/>
-          <Link className={''} name={'Help'}/>
+          <a href="" className="">Help</a>
           <ShoppingBag className="size-6 "/>
       </div>
     </div>
