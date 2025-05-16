@@ -7,7 +7,7 @@ export default function MainGrid() {
 
       <div className="flex">
         <Sidebar />
-          <main className="flex flex-wrap gap-8">
+          <main className="flex flex-wrap gap-8 px-7.5">
             {SHOES.map((shoe) => (
               <ShoeCard key={shoe.slug} shoe={shoe} />
             ))}
