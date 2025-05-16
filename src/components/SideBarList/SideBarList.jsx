@@ -1,9 +1,8 @@
-import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
 import Link from "../LinkList";
 
 export default function SideBarList() {
   return (
-        <ol className=" mt-9 leading-[2]" >
+        <ol className="leading-[2] w-62 pl-8" >
             <Link name='Lifestyle'/>
             <Link name='Jordan'/>
             <Link className={'text-primary-red'} name='Running'/>
